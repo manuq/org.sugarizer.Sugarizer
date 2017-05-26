@@ -1,0 +1,66 @@
+{
+    "app-id": "org.sugarizer.Sugarizer",
+    "base": "io.atom.electron.BaseApp",
+    "base-version": "master",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "1.4",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "sugarizer",
+    "modules": [
+        {
+            "name": "nodejs",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://nodejs.org/dist/v5.12.0/node-v5.12.0.tar.xz",
+                    "path": "node-v5.12.0.tar.xz",
+                    "sha256": "4f926373f11f2a25156eee1804ec012eb912c42e5d34fc2909889da22efdadfe"
+                }
+            ]
+        },
+        {
+            "name": "sugarizer",
+            "build-options": {
+                "build-args": [
+                    "--share=network"
+                ]
+            },
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/llaske/sugarizer.git",
+                    "branch": "v0.8",
+                    "dest": "electron/sugarizer"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/package.json"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/config.json"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/main.js"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/resources/icon.png"
+                },
+                {
+                    "type": "file",
+                    "path": "Makefile"
+                },
+                {
+                    "type": "file",
+                    "path": "configure"
+                },
+                {
+                    "type": "file",
+                    "path": "resources/org.sugarizer.Sugarizer.desktop"
+                }
+            ]
+        }
+    ]
+}

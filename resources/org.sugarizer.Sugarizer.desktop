@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Sugarizer
+GenericName=Sugar Learning Platform
+Comment=A web implementation of the Sugar platform
+Exec=sugarizer
+Icon=org.sugarizer.Sugarizer
+Terminal=false
+Categories=Euducation;

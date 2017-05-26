@@ -1,0 +1,25 @@
+{
+  "name": "sugarizer",
+  "version": "0.1.0",
+  "description": "Sugarizer Learning Platform",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . sugarizer --platform linux --arch x64 --icon resources/icon.png --out dist/",
+    "flatpak64": "electron-installer-flatpak --src dist/sugarizer-linux-x64/ --arch x64 --config config.json",
+    "build": "npm run pack && npm run flatpak64"
+  },
+  "keywords": [
+    "Sugar",
+    "Learning",
+    "Education",
+    "demo"
+  ],
+  "author": "Manuel Quiñones",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron-installer-flatpak": "*",
+    "electron-packager": "*",
+    "electron": "~1.6.2"
+  }
+}
