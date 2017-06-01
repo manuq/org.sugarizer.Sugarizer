@@ -1,7 +1,10 @@
 all:
 	mkdir -p `npm config get cache`
 	tar -zxf npm-cache.tgz -C `npm config get cache`
-	cd electron && npm install --offline
+	tar -zxf node-modules.tgz
+	mkdir -p ~/.electron
+	cp electron-v1.6.10-linux-x64.zip ~/.electron
+	cp SHASUMS256.txt-1.6.10 ~/.electron
 	cd electron && npm run pack
 
 install:

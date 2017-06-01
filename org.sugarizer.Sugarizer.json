@@ -66,6 +66,18 @@
                 {
                     "type": "file",
                     "path": "electron/npm-cache.tgz"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/node-modules.tgz"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/electron-v1.6.10-linux-x64.zip"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/SHASUMS256.txt-1.6.10"
                 }
             ]
         }

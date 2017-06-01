@@ -35,3 +35,10 @@ pushd cache
 tar -zcf ../npm-cache.tgz *
 popd
 $npm5 config set cache ${ORIG_CACHE}
+
+echo "Bundling node_modules/..."
+tar -zcf node-modules.tgz node_modules/
+
+wget https://github.com/electron/electron/releases/download/v1.6.10/electron-v1.6.10-linux-x64.zip
+wget https://github.com/electron/electron/releases/download/v1.6.10/SHASUMS256.txt
+mv SHASUMS256.txt SHASUMS256.txt-1.6.10
