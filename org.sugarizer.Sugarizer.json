@@ -12,9 +12,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://nodejs.org/dist/v5.12.0/node-v5.12.0.tar.xz",
-                    "path": "node-v5.12.0.tar.xz",
-                    "sha256": "4f926373f11f2a25156eee1804ec012eb912c42e5d34fc2909889da22efdadfe"
+                    "url": "https://nodejs.org/dist/v8.0.0/node-v8.0.0.tar.xz",
+                    "sha256": "258d3aa3632bbbf2a447c5d524bd7074e23aa26e2b698774ff452954f6174f1c"
                 }
             ]
         },
@@ -35,6 +34,10 @@
                 {
                     "type": "file",
                     "path": "electron/package.json"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/package-lock.json"
                 },
                 {
                     "type": "file",
@@ -59,6 +62,10 @@
                 {
                     "type": "file",
                     "path": "resources/org.sugarizer.Sugarizer.desktop"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/npm-cache.tgz"
                 }
             ]
         }

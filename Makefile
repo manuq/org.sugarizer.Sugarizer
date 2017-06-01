@@ -1,5 +1,7 @@
 all:
-	cd electron && npm install
+	mkdir -p `npm config get cache`
+	tar -zxf npm-cache.tgz -C `npm config get cache`
+	cd electron && npm install --offline
 	cd electron && npm run pack
 
 install:
