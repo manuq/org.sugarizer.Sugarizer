@@ -34,15 +34,18 @@
                 },
                 {
                     "type": "file",
-                    "path": "electron/package.json"
+                    "path": "electron/package.json",
+                    "dest": "electron/"
                 },
                 {
                     "type": "file",
-                    "path": "electron/config.json"
+                    "path": "electron/config.json",
+                    "dest": "electron/"
                 },
                 {
                     "type": "file",
-                    "path": "electron/main.js"
+                    "path": "electron/main.js",
+                    "dest": "electron/"
                 },
                 {
                     "type": "file",
@@ -59,8 +62,1423 @@
                 {
                     "type": "file",
                     "path": "resources/org.sugarizer.Sugarizer.desktop"
-                }
+                },
+                {
+                    "type": "file",
+                    "path": "electron/yarn-0.24.6.js",
+                    "dest": "electron/",
+                    "dest-filename": "yarn.js"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/.yarnrc",
+                    "dest": "electron/"
+                },
+                {
+                    "type": "file",
+                    "path": "electron/yarn.lock",
+                    "dest": "electron/"
+                },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz",
+        "sha256": "6071627b4a4c6bdf8f59fe07c76c51c695b818976f46c0aa19f7c65d259d7791",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/ajv/-/ajv-4.11.8.tgz",
+        "sha256": "5e645008a327dfa21293ea60d2e2b9aaa383b44553da1b4126a7dc5a2034fcb7",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/ansi-regex/-/ansi-regex-2.1.1.tgz",
+        "sha256": "52b8ab148865eeaf538e630a937fa153d5af21232f014a5d4e38491937be8037",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/array-find-index/-/array-find-index-1.0.2.tgz",
+        "sha256": "05ea6cb80af8863ab910004a81179301357956f96a1f78151f348a4b19213bc6",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/asar/-/asar-0.12.4.tgz",
+        "sha256": "1e9586565c950b76809712ff414025d5dd061f69f738596fad637bc0a6c31d77",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/asar/-/asar-0.13.0.tgz",
+        "sha256": "c187238b17e037b67dead5ce525a21cdc2d9cd28de904f34c542724c20f52c17",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/asn1/-/asn1-0.2.3.tgz",
+        "sha256": "45ab08e7614dfe11caeda2b869602a5cd7fc777a01968ac101f239db0c9ea19c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/assert-plus/-/assert-plus-1.0.0.tgz",
+        "sha256": "47ab5c4571504bdee569f03e3423af5b51aa17d6a94866ddcae353ed2d9033eb",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/assert-plus/-/assert-plus-0.2.0.tgz",
+        "sha256": "73031b3f39d0f0785e6a39f896067abf50d4283dcde4527835e5eacdf3bbc2fd",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/async/-/async-2.4.1.tgz",
+        "sha256": "1768788e4058df8ebc3b1af4f4f169d7e91180854749820e7956bc650040d68b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz",
+        "sha256": "8c254f30f70792645042e4d71f590ec49f8e386a475772f7430c73b964b57dcf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.6.0.tgz",
+        "sha256": "592829a38e2ffca197ae26799e7e635981d16bb5bba252074f4e333ad4aa9f3a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz",
+        "sha256": "619adba4bec8d6a9df22ff5277abf347d6548e39363d7a57e4137f720dcd82c2",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/balanced-match/-/balanced-match-0.4.2.tgz",
+        "sha256": "2af5559389b5274d3a8b5834dad7bbe0ca51509324f8cc2ecc2a368de4e20ad8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/base64-js/-/base64-js-1.2.0.tgz",
+        "sha256": "a1ea6194e8910ec0ff5a597fe79b06a29e322572a7ec721608ec802214c46349",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.1.tgz",
+        "sha256": "da5811c666dfbb44633116cb2698a0619da7514f77e03879ff9c38ce549a1679",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/binary/-/binary-0.3.0.tgz",
+        "sha256": "940bc9b40fb2a875876e3ca1be3d05a7a419881e4201c76c83ffbb05568b6909",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.0.tgz",
+        "sha256": "069c78c011e8a0330e77c7a7a114678b337619590e4f99010d939bd7cd10b482",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/boom/-/boom-2.10.1.tgz",
+        "sha256": "a61cb4df27252b2945f69cdfcbe4bc879bf57ea1a4a7ec5838ef7fa56294cedc",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/brace-expansion/-/brace-expansion-1.1.7.tgz",
+        "sha256": "b3c9a39d83fc4c3e37f885b84153aefac683b20fcab248166f65987773af3b0a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/buffers/-/buffers-0.1.1.tgz",
+        "sha256": "f8de49c60e467005182d9687b5d87775bbcec6385ac63220b7741327441deb6d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz",
+        "sha256": "e789717824e8688269c241c203d9f615cf15286d6217d74defc7f395b0da5f11",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/camelcase-keys/-/camelcase-keys-2.1.0.tgz",
+        "sha256": "103680f30598d0217c8b64d899bb2c04d9b0a6756bffa2552651dd24a2eae9e4",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/camelcase/-/camelcase-2.1.1.tgz",
+        "sha256": "3dc15e1abb0eb9fa85846e661df399ccbcdbd1bf100506eadc610c8667c686a6",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/camelcase/-/camelcase-3.0.0.tgz",
+        "sha256": "78d8cda9e83918a86491c8fb8d71a3ad7851cd562ab00807319be35371c16d02",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz",
+        "sha256": "4d7eb172144890213264deda324bd94a7654302265d18e66bfaa63a351fdae98",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/chainsaw/-/chainsaw-0.1.0.tgz",
+        "sha256": "01586a6aa1d1174ae07aff69822d01e0704fe30f23ac22221c9b804bab976cfb",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/chromium-pickle-js/-/chromium-pickle-js-0.2.0.tgz",
+        "sha256": "b227cdf24225d03e5f22f6307d507bf6bd9863f4b702e7e5457af3ff0363e16e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/cliui/-/cliui-3.2.0.tgz",
+        "sha256": "4ff1f37ab7becd3fb0a38956ad044449a4e7d34a48caa6323530ff0805b6ea40",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/co/-/co-4.6.0.tgz",
+        "sha256": "21d4362a4a3822e68fe1852409381dd0be9851756eabfbf6d0723ef51e39cf98",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz",
+        "sha256": "5279ca78986d6381852ac1b02592ae2dc5cc979317284b8aa1d7554107770b3d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.5.tgz",
+        "sha256": "6a16e88e59572f7305d056959eaeb6e0bee84fd710e9dcf6a5dbe0ee684ad94b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz",
+        "sha256": "197a1e0b408bc686fbf62ed5ef43210251c616ba1b09721e8299d4484217bd47",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/compare-version/-/compare-version-0.1.2.tgz",
+        "sha256": "6191e62fe2673b6fc8230044b094bb5befae84ad39671b716b615ce3a14b0d3c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz",
+        "sha256": "35902dd620cf0058c49ea614120f18a889d984269a90381b7622e79c2cfe4261",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/concat-stream/-/concat-stream-1.6.0.tgz",
+        "sha256": "a50982b2f3a23302a571f24414d1862f56473bab1722121ac2fe906be3535237",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz",
+        "sha256": "a4a44dab6579ede3e06ade58d26f8fd642eae09153fd59c608fcb7951a499398",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/cryptiles/-/cryptiles-2.0.5.tgz",
+        "sha256": "dac94398339bad4fcefe7212915171d1838ccf989ac1053910f10b778daa1238",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/cuint/-/cuint-0.2.2.tgz",
+        "sha256": "1b90b7f3f499378a52712e1894578ceb7d84ef1661a947ca9d7bde6c8b22a82e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/currently-unhandled/-/currently-unhandled-0.4.1.tgz",
+        "sha256": "1c20bcdf73b38daafb49966907bd7f738b6391e606e072d8dfbf296eea16d61d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz",
+        "sha256": "8b79ebde18aa8f10aba37e32dcecbe376023c79776510e06e9a53f5e68555340",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz",
+        "sha256": "ceea3fa142e24474b6d652bfa3f15caabf1f140c628130724332140f7a835d9e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz",
+        "sha256": "8b3ba67947f1417648a8049a6fd1a21d71d7fe16ea50239e51a13a0e92ce324d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz",
+        "sha256": "b4adeff510e38c3a02703bcba72ffbe3c65b591f13c78c6a459b5e801a3e2864",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/decompress-zip/-/decompress-zip-0.3.0.tgz",
+        "sha256": "394688d49a7e61b18c959e4e01a2040fbc0966e37d1e718e3daed7f2dfecbffd",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.2.tgz",
+        "sha256": "8331745fc15edd48bf5065e21b9f8a0ef1103a449682f94d30621feb100f285d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz",
+        "sha256": "ac38fce4217dfb1d772427c7d8d0d073e35ecd832915e97a61d9ab5c504129d3",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz",
+        "sha256": "9296acf374d7488b07e9466c03098cc9e6b90aa6bfdd9c614c6ee63975642c4c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/electron-download/-/electron-download-3.3.0.tgz",
+        "sha256": "a4bc7dd3d268275b38e53abd3130253057ed5efa3b56237921fbb207d76c69f5",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/electron-download/-/electron-download-4.1.0.tgz",
+        "sha256": "181f502292619ad5a73aa82319709f95432b08b30749f0359be7f37be5e7b69a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/electron-installer-flatpak/-/electron-installer-flatpak-0.6.0.tgz",
+        "sha256": "2df38cdddf389e28d3e8f3b3f9074a4e29202a3795cb0cfd3c4f52a4f42e77b9",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/electron-osx-sign/-/electron-osx-sign-0.4.6.tgz",
+        "sha256": "86423a9a55c27521087ea866aa5deba76cfae2a5fb703fb9b5cb31754f678aa7",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/electron-packager/-/electron-packager-8.7.1.tgz",
+        "sha256": "38d9665ceb7e0307d7acd1a6eeaa0ed421591d5e5e0cb34f829f23436a1ad7fe",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/electron/-/electron-1.6.11.tgz",
+        "sha256": "7df577c28c6ea016b8edce04d2f9103ec9872206264f8493727521e8c40d9e26",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/env-paths/-/env-paths-1.0.0.tgz",
+        "sha256": "5a69b941083f446847c884e6d7034fb61f26df510f9c5a6d72a6776c061ecd62",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz",
+        "sha256": "77b75727ed24faaba5d36a73c231b5ed4aa9243afaebf04ac7d0cef4617a32c1",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/es6-promise/-/es6-promise-4.1.0.tgz",
+        "sha256": "0c3bfc9052ecec39c8bafbe435a0b4e9994ab77f5147127599cc2ccd8394e98d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/es6-promisify/-/es6-promisify-5.0.0.tgz",
+        "sha256": "6ccd965ee102cfbf11422a76ecdeb1e6e6070d9bfa3b9172d08bb1e02d9907dd",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/extend/-/extend-3.0.1.tgz",
+        "sha256": "945da184c09e2fb0d920a73bac25a747b41eb8da99fa456c80e907f3cdfa2eba",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/extract-zip/-/extract-zip-1.6.5.tgz",
+        "sha256": "6047898c8ce5eb7ff6342f977a78a123f4f9bc8d23b7ede1f31271b4f7cc85a0",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.0.2.tgz",
+        "sha256": "ea000cf3e51cba7fac7fb1e425ddb79bf46f3ce40955955bf35fd487184a04ab",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/fd-slicer/-/fd-slicer-1.0.1.tgz",
+        "sha256": "29b165a7e5d7bf5c7a4c74e8a46d0979dd2b0f24f39fca2eec3156c0e4339f51",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/find-up/-/find-up-1.1.2.tgz",
+        "sha256": "b1e6968c7ccf27d31504353bed2b0748b9b0284bc847b0a0480f5b56137d8b7f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/find-up/-/find-up-2.1.0.tgz",
+        "sha256": "e3ffbffcc7334b7eace925188baedbc1eaa83e506fce2b8a734136b31633ad1d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/flatpak-bundler/-/flatpak-bundler-0.1.3.tgz",
+        "sha256": "3a2cfee913c43a04f7e3b74032bf1e494f059d8d9fd838d18aec6d20779c2d7e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/forever-agent/-/forever-agent-0.6.1.tgz",
+        "sha256": "eca862e1fd07bf54ff68ccf70450a64dc3d6b807ee9e3ddeb5d96773a3c806c5",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/form-data/-/form-data-2.1.4.tgz",
+        "sha256": "f1292eb8ecd656db1e05bd9879282b961a9d8f30a703a745ebf7784b05a25a2d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/fs-extra/-/fs-extra-0.26.7.tgz",
+        "sha256": "49a36bb98511255c9791b1e9d60cb54ff8ae7eac651f5eedf261244b344e05f0",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/fs-extra/-/fs-extra-0.30.0.tgz",
+        "sha256": "1464d3d39ed652d6a4036fdde5e55a387193e8550933e09c24c60d475f487ef5",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/fs-extra/-/fs-extra-2.1.2.tgz",
+        "sha256": "f332bf6f15c43bdaa693daff7fc5e5900030d96e5f33fcefbdc1955422aef67c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/fs-extra/-/fs-extra-3.0.1.tgz",
+        "sha256": "df2dba5a6cd93fbbc11817f0ac2be0bf766f6520758d4af450f8547c8b60294b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.2.tgz",
+        "sha256": "14c82f01361452d3ee9e7879d90e66819557d8e84a69ec0f6c7c65c6563049a7",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/get-package-info/-/get-package-info-1.0.0.tgz",
+        "sha256": "eaea8f8168c85a1c84a5ee81f84fd2a9fcfda00cc8d1a55ca16dca9fc96dd6a0",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/get-stdin/-/get-stdin-4.0.1.tgz",
+        "sha256": "cc2f878acc6081d9a1d7dce15163456e416e20d80970a44dafb5a9929bc94d48",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/getpass/-/getpass-0.1.7.tgz",
+        "sha256": "8f0312ba10766d6c13bf71bae5168ca26191f6eed5c47ac5fa7c4df85b3ed445",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/glob/-/glob-6.0.4.tgz",
+        "sha256": "a765f639bf5561a50678e124fc59d6e9b8c7fd5c58d0d3913e37367ede192543",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz",
+        "sha256": "6ab070270ef8dd8edd446df87425829ed31091dc7e5f30787f5abb9cb5c2b6b8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz",
+        "sha256": "c1ce83682d563874517386a13c364eb0a8494e99a69203cff264a1381cb3a300",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/har-schema/-/har-schema-1.0.5.tgz",
+        "sha256": "8ff4058be48bb686d115490fcfeee71c9bbec44e994f962bc0deb195f71016f8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/har-validator/-/har-validator-4.2.1.tgz",
+        "sha256": "b102d4b47fc28822809210e6035870d580daccb86f50f4130ad1de61a1978561",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/hawk/-/hawk-3.1.3.tgz",
+        "sha256": "25a9c9d9755c48a1b2a9c69ee5d678796584d0f4464610277136d10098b1b283",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz",
+        "sha256": "b203a87561b58b0c712cf1df4a5b362d3709b851c5e6cc4bfa7c020bd372672d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/home-path/-/home-path-1.0.5.tgz",
+        "sha256": "8c745d282f1aaac067b3a6cbc1e4eb677d18dc71dd8278bf608fee47f8562390",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.4.2.tgz",
+        "sha256": "b10b403ac5fb98e2ffdefc8ea43697f150504c7396853064de3d1bfec2e59292",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/http-signature/-/http-signature-1.1.1.tgz",
+        "sha256": "e14761a7b61ac7e7b32582d62fced7438983e65dd800138e33363d3b78041f15",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/indent-string/-/indent-string-2.1.0.tgz",
+        "sha256": "746430e7c7a14001f625531a581cb6a976bc2e19acf3faaaec690d44149baecf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/inflight/-/inflight-1.0.6.tgz",
+        "sha256": "5a9fdcf59874af6ad3b413b6815d5afaaea34939a3bee20e1e50f7830031889b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz",
+        "sha256": "7f5f58e9b54e87e264786e7e84d9e078aaf68c1003de9fa68945101e02356cdf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz",
+        "sha256": "c0f6ee998b4397f180d806bfd967a567a93642a9e8b4c1abfe8b2a4f4d16fc37",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz",
+        "sha256": "ad334f834b1876490ce47e220ff1b712e5b678216552abbd005639c14974d29e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/is-arrayish/-/is-arrayish-0.2.1.tgz",
+        "sha256": "848d15d93e447897263a654c114c8e45c340ce7fdc1bc86e7a44a4c44f27e38c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/is-builtin-module/-/is-builtin-module-1.0.0.tgz",
+        "sha256": "4420b4ff39f7b135241b0426243d4edbf02d1f6dd32a4fba68c7f68f0e820e8e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/is-finite/-/is-finite-1.0.2.tgz",
+        "sha256": "41316f8afebe7d7dbc13338f5496c1edeaa4ba52008a9f6afbf8bcad6fa879d3",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz",
+        "sha256": "77ed656a130d47cc804c1d8fdae8f0fc4ad355625552fcde37703ca5f8b3686c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz",
+        "sha256": "0d5c97ab733832aa006929b933decd71af74d92dcc857637840cb47496c83845",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz",
+        "sha256": "842b40f45caefe6d44673cb105ca8f852fa57fce75ee2db7923e414d43d65674",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz",
+        "sha256": "3e8444020696800aed92a09d4c52602adc76140a39b6c8e94fe7c89cf70a9f0a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz",
+        "sha256": "e23c76f14f5222e07e39d89858b61e8e33f96956de9e0df3659cbdf8db950c87",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/isbinaryfile/-/isbinaryfile-3.0.2.tgz",
+        "sha256": "204e50f422b270437878281339db3c83e5b38b67bbddeae4c36f1c218ee26da7",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz",
+        "sha256": "79ae4378a2a3446fb72177b57138c1382565ad75e50baba2909731ebb5c90b44",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz",
+        "sha256": "b835769dd428d8edddde0565ee758e5e16541369bba3935e4496420689367a1a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz",
+        "sha256": "5ac44bc9490a2d7da45ebb7028ff9b86bf17944741e7c449573d7a147ae72323",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/json-schema/-/json-schema-0.2.3.tgz",
+        "sha256": "e3163c53fbc030cb6ac9bd9652f20a62d3d0580e4eeafe9cb36571ca2bee933f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/json-stable-stringify/-/json-stable-stringify-1.0.1.tgz",
+        "sha256": "70e228b750bf40ab69dda437f284992f1ea4c4bf9e788dc7fc586a6956256150",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
+        "sha256": "b7fbbf65c0bff6d47f516c98638229dff0e981d0edfffecbcf971d7fe361928a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/jsonfile/-/jsonfile-2.4.0.tgz",
+        "sha256": "fc9541cb2b3f7f0a9ea2b8a06a1f34c72cbf48eea43bd752cb0df0728cb45a73",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/jsonfile/-/jsonfile-3.0.0.tgz",
+        "sha256": "95017c060ef61f5fe6c7a41c49b7465cdac0d0e6659620631cbc31cb0adb796f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz",
+        "sha256": "030f926cb3d18933c9bce7fe3d1dddbde73b91532dc4cada98214337e811c89c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/jsprim/-/jsprim-1.4.0.tgz",
+        "sha256": "36b8241e03aea0f700cd57db064ee5760f81516d58c739732ac03309ec11d0ba",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/klaw/-/klaw-1.3.1.tgz",
+        "sha256": "5f22cf9a810f184ff33bdf4edb8e9020a1f4001b1413081d2d9cb90380784def",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/lcid/-/lcid-1.0.0.tgz",
+        "sha256": "4c49d600aaa40a822928c13fae5575bb2debc38a3e8f7877d290cc9ff2d24c43",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz",
+        "sha256": "edf8d9c1a69850f6efd099390ce2c3b50edb9ac99b997e957bbb2f947d145d7e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/load-json-file/-/load-json-file-2.0.0.tgz",
+        "sha256": "ed7ac54e0816129ca5d3b92bda83d0b2cb2522fa4a5939faaf65c8f5953a4566",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/locate-path/-/locate-path-2.0.0.tgz",
+        "sha256": "b1ab0fff582a3a7098905544c47221ee52088be97e9cec4f8fd44c2ea7fa72c2",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz",
+        "sha256": "df4deba1b8156cffe8360b08f04de11b78d3f31ebdde90bef0a053a59848a49b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz",
+        "sha256": "f14bfa44822bd45ec6ae995f8c5a0067cfddc680e74f105b03c8e28a9104c59d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/loud-rejection/-/loud-rejection-1.6.0.tgz",
+        "sha256": "ec9e1633627a5cd6f38737ac3f92dda1331248e6ca062e5c8b7d40b1f411c3fa",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz",
+        "sha256": "8358d2d331c9668909dfb4fe639ed2fbf3bfbd6b2161973db40d06a5656ab3e5",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz",
+        "sha256": "1da41d32f668f2fca8dece3f5ec404d0ffe57d170df3f4c231f1739d80d19f0d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/mime-db/-/mime-db-1.27.0.tgz",
+        "sha256": "b21852a0b8c2223cc262595f4279ae9704ee322dba7ab73f5c36a4b853829cc6",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.15.tgz",
+        "sha256": "3d8687c44d14d6b5213c9b0455409bbb63cf897b7e9f533b387cd4d87b62af6e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz",
+        "sha256": "426a24d79bb6f0d3bb133e62cec69021836d254b39d931c104ddd7c464adea71",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz",
+        "sha256": "7953afa208b921faf59c1fa5693764ca2be03e261ef91c88717ef20c8c474a33",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/minimist/-/minimist-1.2.0.tgz",
+        "sha256": "ec0d0bdf71837612eea9fa61e5689e14856807946d499ce6ebf062ba09a5f270",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.0.tgz",
+        "sha256": "5b1612f3e278be6dce7cada0a6591492cb249725c731e52b3ae44500808f02cd",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz",
+        "sha256": "77b52870e8dedc68e1e7afcdadba34d3da6debe4f3aae36453ba151f1638bf24",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/mkpath/-/mkpath-0.1.0.tgz",
+        "sha256": "6159b20743defda0e2b48edc91c2a2a245dc940a0fb88688bf98f6464d8a76a4",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/mksnapshot/-/mksnapshot-0.3.1.tgz",
+        "sha256": "eabd43e14bf3978e77ac624d54cc6d3dfa0c28995d67fc8715fc345069495365",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz",
+        "sha256": "75ed26e71fdd1d8747b15516c9e36459ee459a7c5653cf4ee2a6da1cdde8f9ef",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz",
+        "sha256": "362152ab8864181fc3359a3c440eec58ce3e18f773b0dde4d88a84fe13d73ecb",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/nopt/-/nopt-3.0.6.tgz",
+        "sha256": "e460b4eb93f4f6cda338f57d8f74d85589334c5a2207e95c631adb96ae9ea9a8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/nopt/-/nopt-1.0.10.tgz",
+        "sha256": "426562943bfbbfc059eac83575ade5b78c6c01e5c1000a90a7defecfe2334927",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/normalize-package-data/-/normalize-package-data-2.3.8.tgz",
+        "sha256": "a108cbd7843956bfcf43a044136a6c0d2d95becae06579cbeab52392d9066aa2",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/nugget/-/nugget-2.0.1.tgz",
+        "sha256": "884cd59c363a2e5cf23a28e3bfb03b16e430fef006cdf0b729ddeb9f3da75625",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz",
+        "sha256": "896ec5dd2269a0f219b0e46dd24b5532cdfd1648f1e5156078854b912d619f3c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.8.2.tgz",
+        "sha256": "231d83cb7925718cae32662f274a4c753644b45e1a4f90f3844f7ce234a37eba",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz",
+        "sha256": "782d726a263ba7b26cced612af97b80035516df4b0cd788524e7b2cebc4e29ed",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/object-keys/-/object-keys-0.4.0.tgz",
+        "sha256": "56c54417a06ff1f7fa63e67bc197d3dcdbbc6be8d57a5f18413d1ef8e37bd238",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/once/-/once-1.4.0.tgz",
+        "sha256": "cf51460ba370c698f68b976e514d113497339ba018b6003e8e8eb569c6fccfcf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/os-locale/-/os-locale-1.4.0.tgz",
+        "sha256": "c46e48baddd73fac210c0fe16b286e7d34e72725d8d432fbfdc2469612823c56",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz",
+        "sha256": "13e722c2d777c084983e2e1e1150a496aa25685791a71244e61a605ec892ad89",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/p-limit/-/p-limit-1.1.0.tgz",
+        "sha256": "0530ba6c54e14e4fbbc3ae7aceabd91fa463ce7acc86572a2aa843a65a4eb8c8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/p-locate/-/p-locate-2.0.0.tgz",
+        "sha256": "07c74b4f9a9800bf5b4eb14775b34a460ca83c25b6d1558e9dabf33a8f2afb46",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/parse-json/-/parse-json-2.2.0.tgz",
+        "sha256": "8bb1291c36fff54df555487976888dad81666a05291e6b6ddc5d2dc74d9f6ed5",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/path-exists/-/path-exists-2.1.0.tgz",
+        "sha256": "fa338f850c34beea601a2680566bbcf095611f003934b47f0e71deb2c06aa889",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz",
+        "sha256": "d7f78752dc75e2f8a3a232b064fd099330334997413ded8296c7ad5d8d06322d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz",
+        "sha256": "6e6d709f1a56942514e4e2c2709b30c7b1ffa46fbed70e714904a3d63b01f75c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.5.tgz",
+        "sha256": "7bcf82ceab94ec610b0242df2e33f132c8d0595ae7122bf8e72fc1fd23cadc03",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz",
+        "sha256": "c6910e17a214f4edb0f4b04f6f9c74300d4bf2d587756eafdade29d33d9fb13b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/path-type/-/path-type-2.0.0.tgz",
+        "sha256": "69e036aeb1a2ee419242b9ed61dc0edd7b89e27869f80d244fda1afd24d23aa1",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/pend/-/pend-1.2.0.tgz",
+        "sha256": "a12f279b25a9df710b52a9892bad00bdeeb862a9b5d1e4f4db77131129436d7f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/performance-now/-/performance-now-0.2.0.tgz",
+        "sha256": "41193d639761077b384832fa53a3d9e4d36008afe7588894ff80059fda75de08",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/pify/-/pify-2.3.0.tgz",
+        "sha256": "74a52c931eea5d226f6a04deb6e138f1a9896abcc64fc1c597f83d19a7b20530",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz",
+        "sha256": "92b6c810617351cb03c62b39fa6241003e5da043074561448b9f08ff4f93ad14",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz",
+        "sha256": "79a858c25e63ade9eb3e65b2aa2a491cc9e1d2fe671c0168f9291b3ba7da3d83",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/plist/-/plist-2.1.0.tgz",
+        "sha256": "7f7b67ee7a7cde604dcdfcf22076c283b74dd511139512d0e153c0ffcc3e174e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-1.0.4.tgz",
+        "sha256": "b10e09e975fa6a9f416bcb26628650306305f843a1198f2dae680d068761af9f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz",
+        "sha256": "674cb3ba253e3b6ba221d0558ee9e0814799e121f4df8bec1a91fbb270b550ae",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/progress-stream/-/progress-stream-1.2.0.tgz",
+        "sha256": "b238fab57f6f794f673db67f34640e1b2222874839429351104f042c16274b3f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz",
+        "sha256": "452bca7369ca14bc47711c79063f5f0f3939095918508ca7400f5859448ded89",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/q/-/q-1.5.0.tgz",
+        "sha256": "013b0b6eb2fb49b9c1d044a0fc5d455782fa6cd74338313bb5752914fe635c0b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz",
+        "sha256": "a166db939dbf2e14b115b1fb3c9406fea7fe582c27b64011db1f41235814c19d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/rc/-/rc-1.2.1.tgz",
+        "sha256": "5cfaf2d9ab179a921f24b16d960e616663b6b8cd109597799c2aff00904e2de9",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/rcedit/-/rcedit-0.9.0.tgz",
+        "sha256": "f7bdefae336aba174a81a0f9a319aed53161204c8a7eac38ec0e8156502863bc",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz",
+        "sha256": "e7058ddcb7a13ab36cf55795d6a31629e5be82f206a50d35a10b91d17c7e4726",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-2.0.0.tgz",
+        "sha256": "3c67e3c3d19f892b377f778d0e73e63117c23df2b075339d7ae2ab4b1182aa35",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/read-pkg/-/read-pkg-1.1.0.tgz",
+        "sha256": "8ec36eb1bbfbbeafd98799818804e94528bde09db50a87a9aac0f0eaaf56eff2",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/read-pkg/-/read-pkg-2.0.0.tgz",
+        "sha256": "26f005f5a68d6449e36b578fd15c1df88485ab9db9512652440d227b2e808d89",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz",
+        "sha256": "2c993fcc5a24fc1605a1dd81f52b921774990316d31dbc61a95f24d0d7d59de4",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.2.11.tgz",
+        "sha256": "52906815ca3e411f64c682debcd0b22ccac32e73b95d5e7fd75905c69e1b537a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz",
+        "sha256": "48b368465df2a980b1f4e0f3f132555dbb82a69e07508f3f403e7dcb207834ad",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/repeating/-/repeating-2.0.1.tgz",
+        "sha256": "2b686da5dedfd4fc6a1368690df313213e801a5d8b320b786082bf6facb28097",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/request/-/request-2.81.0.tgz",
+        "sha256": "bc392db88ba9386af1f4dd86aea46dfbe35441d3fea891cc008ccea4b669adcf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/require-directory/-/require-directory-2.1.1.tgz",
+        "sha256": "703bee0844360383fe4a8792d4a5a562647426a053e7597a1d272ac554f386c8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-1.0.1.tgz",
+        "sha256": "63a72dd24ef77958d01bcf2797a2e5fe57e1c5d11579fbd1bdc8b784c89999c3",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/resolve/-/resolve-1.3.3.tgz",
+        "sha256": "f316de5e76b6e52868d0327b2b662651af0b9384e6f613a9dfab0b3733a371bd",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz",
+        "sha256": "3f5d746a7fe4adaf3e8c8fef6f72dd57e360e6882b45d724a6b1f7c1407f79bb",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/run-series/-/run-series-1.1.4.tgz",
+        "sha256": "aeb16f66475921b603b416b453a25deacfa55f3191f4c2a13ec928c3ff9f977f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.0.tgz",
+        "sha256": "64a03173873a284f5475ccede3843e003d576b844d9ea21ec675448af7e1298d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.0.1.tgz",
+        "sha256": "ec2b5ea20b0098ff8f35b2e76964bd5eebcef5524389e04faa10cd2bf1f69e65",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/sanitize-filename/-/sanitize-filename-1.6.1.tgz",
+        "sha256": "0e3a8ecba1b2ef40adab2582dbee8ea082069bbb6db93335255fee4f86820be3",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz",
+        "sha256": "a0c9d9b3b5ebeb15d2f7b8fc3b9fa22b85cf03eaac638db29b047ea1876aa1e8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz",
+        "sha256": "d934aee7db9e09da09e87724743315ffe888130aa6e04fbbdecac985f6ae693d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz",
+        "sha256": "d8900ed050db9f8e5c27529d43c025d0bbbb16737ca199d86bd50fdc8c5bd2d8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/single-line-log/-/single-line-log-1.1.2.tgz",
+        "sha256": "ba9b7cf88e39facd5b462ca842b5be0a1b1f00e6a8e3595619d630efb165e2a2",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/sntp/-/sntp-1.0.9.tgz",
+        "sha256": "6913bd03125d36dd741d4ffac1620170b568c655a1751bfb7e2ebb3ffa3edcf0",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/spdx-correct/-/spdx-correct-1.0.2.tgz",
+        "sha256": "bb496bad0f7b03558a81bbc95989cbcdeb25821f1318bba547616afcca06a03f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/spdx-expression-parse/-/spdx-expression-parse-1.0.4.tgz",
+        "sha256": "67221580d73a09846df5a722725ea32a76b39ed5c3e73d7486f4ab7a55b7d378",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-1.2.2.tgz",
+        "sha256": "d8a073c84d34dc2b8340e33ca32f59f82615dd04bbc1a429c2703b0d0d6d9f23",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/speedometer/-/speedometer-0.1.4.tgz",
+        "sha256": "11772b64835c85768e866dc3d117cd853b793394ae8c2dec75e236524922a6a8",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/sshpk/-/sshpk-1.13.0.tgz",
+        "sha256": "e9fb55c15693999324ccd53dbfd9c0509c507324adee9a63f8c0865541cac8d3",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz",
+        "sha256": "97e54ded8cca6d24a58e8d0650fcfe80fb4094894c2078136b4ad0f24059e25d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz",
+        "sha256": "3e6e6ffeafe6157eb2278a909afc0b845234b13446dca8a9518c2b79b9c22086",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.0.2.tgz",
+        "sha256": "791cc178a31199fbbc6a4c4ca743da7349a86890b5c7176cf40b35ff037617dc",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/stringstream/-/stringstream-0.0.5.tgz",
+        "sha256": "ed686bc9c2641ff7bb002b7c3bf58e2b8193f535490de7d07669ef465b40fcf3",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-3.0.1.tgz",
+        "sha256": "1c9d385a4118959514f84dce8d7bb2dafc802f0272dd00348aa18d17b95b793a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/strip-bom/-/strip-bom-2.0.0.tgz",
+        "sha256": "ad9ed163db6586739e6576b48ea76349b83ad460fee5c8e6a8fb481883fd0653",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz",
+        "sha256": "48094c11a1f7faa867eb6919c09380232ce9b6d61fb3c43618ca6235b6013ee2",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/strip-indent/-/strip-indent-1.0.1.tgz",
+        "sha256": "bea31071c9346ea38853ad41190455d725f89c0796ea1cd7f478b2385baded00",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz",
+        "sha256": "dbe45febaf1bf7265c25733242bc0e7ac38b632db6a8e19f0341af4770425899",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/sumchecker/-/sumchecker-1.3.1.tgz",
+        "sha256": "34120ba5387a59579930e99a7bfdeb5c5d64d776e3037fc9e7f7ed1746e30b7d",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/sumchecker/-/sumchecker-2.0.2.tgz",
+        "sha256": "103060c88f485bb0c12d0f98e88ec97a5316e5e6eba0b06f7ba7f729c5725dbf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/temp/-/temp-0.8.3.tgz",
+        "sha256": "bd0335786da78c5f706c80c6fad5900cf5b86a5254285dc012a0f9be8fd4f544",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/tempfile/-/tempfile-1.1.1.tgz",
+        "sha256": "cc3bf4ed6c778763ef6049fef5918a523832d20547272d310b4bba0b544da626",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/throttleit/-/throttleit-0.0.2.tgz",
+        "sha256": "6256696da1416fbd2bedac1ac507fc1f173e2aa65d2ac5c46ee3ce45f84d1a01",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/through2/-/through2-0.2.3.tgz",
+        "sha256": "13a75684ece5da83f01502c7668e2d97f4fca0418089da240742d59e718418da",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/tmp/-/tmp-0.0.28.tgz",
+        "sha256": "65213d0e1b3460f2df6ca0119a67efeba456cf1d441e30b714fc187fb5d9f44b",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/tmp/-/tmp-0.0.29.tgz",
+        "sha256": "9c2aea589f1ed541f6b23e66d615d27d217915d887a8db164fac5d566ec065bf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/touch/-/touch-0.0.3.tgz",
+        "sha256": "d8200c861fe147e4418eabd22eda8b153c8cde042440686a64d47bd7544e1781",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/tough-cookie/-/tough-cookie-2.3.2.tgz",
+        "sha256": "582bfe8ea9c85e15489ee3ea8eaccfd652e20292daa9a439588c9746c702594a",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/traverse/-/traverse-0.3.9.tgz",
+        "sha256": "7813f6b1adfc7888bf2629678b9c119c368740f0348cb95cc47e057b1e160942",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-1.0.0.tgz",
+        "sha256": "0fb1fc939423d9068dcacbde0359a9857ad59de874a74d15e00589e480ea07f0",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/truncate-utf8-bytes/-/truncate-utf8-bytes-1.0.2.tgz",
+        "sha256": "317ae6326a50e6c63b6325e9d7d90881382fd22b6351c546c3f36be58eabeb64",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/tunnel-agent/-/tunnel-agent-0.6.0.tgz",
+        "sha256": "d3e3c04a50d6d2fa40654bf764fa1792f797bd5a62c69d03dceaa7d4a85c5012",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz",
+        "sha256": "6cea33d67a9bd83f8bd250655c78a2c89ea912bcc6be91c8e65807ce69cfdfd6",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz",
+        "sha256": "3f324b75a9581c4c85cec25e8cd30831ccaa3c87770cee2ff4b9167055004108",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/universalify/-/universalify-0.1.0.tgz",
+        "sha256": "8f83303e52acb9caf2248aa73e897f5441adf042c838425f37e9ecce4974cfaa",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/utf8-byte-length/-/utf8-byte-length-1.0.4.tgz",
+        "sha256": "ff90ea289b9057204d708b0f06d4d9444a06712c087367d68d891ff9f88cc1c7",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz",
+        "sha256": "79a1de983c1b393180c47456d6b73caab278a00ea6e37d5c6675f2dcdec2a3e5",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/uuid/-/uuid-2.0.3.tgz",
+        "sha256": "4cf06a3c7b6285440ef6306407428a62e085eb8fe62b66acb80df87b0fefd40e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz",
+        "sha256": "f1ac0b02fa390011bc99cb95650c7ea50de69b9396c2b3b4622f5bdda4d14e58",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/validate-npm-package-license/-/validate-npm-package-license-3.0.1.tgz",
+        "sha256": "15915346efdb973ada371389b7add4b7af0929addca4d3f06f5441bda599056e",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/verror/-/verror-1.3.6.tgz",
+        "sha256": "96135dd5fef7b75bfe26513658ca3fc1ab38e17a9bec522fc5ec6e54b6b63f89",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/which-module/-/which-module-1.0.0.tgz",
+        "sha256": "2099f8a4be322bae4d0d5c55b16e8916fab3f73a22b08bc22dd3c3faaae54786",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-2.1.0.tgz",
+        "sha256": "4e9c683a8ddd125984393f2c2cc014037483458a863c00bfcba7429dd8123490",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz",
+        "sha256": "aff3730d91b7b1e143822956d14608f563163cf11b9d0ae602df1fe1e430fdfb",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/xmlbuilder/-/xmlbuilder-8.2.2.tgz",
+        "sha256": "8a76f3b277ed93984a3435f88e9b857705ec85fb8abc34cc6aaab685c85edb76",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz",
+        "sha256": "ee6b9db3b3cf91f10ac216c17669e75ad23252777080bd0ede3ea94832b95dd7",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/xtend/-/xtend-2.1.2.tgz",
+        "sha256": "1576bc77a416855ef55c5f6a8cfa0d060c0d10fb15d423b217a6e3a864455cbf",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz",
+        "sha256": "4d7412e72d642106847b3caa8597a54b24178e3baaf406748d519d8b51462741",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-4.2.1.tgz",
+        "sha256": "40ccc8971a9d6adfcbb671694eb9f716d1c2082240aa202ae3a61757eccaef34",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/yargs/-/yargs-6.6.0.tgz",
+        "sha256": "8d14a9e2e26a8fddf5d6039e420c8d5c277ef69407bf27c44d2af5328d5669a9",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/yauzl/-/yauzl-2.4.1.tgz",
+        "sha256": "d96661710bd6404d226e78e29d5595fe31ecdbfa1c2d4185f722b921edeca554",
+        "dest": "electron/npm-offline-cache/"
+    }
             ]
         }
     ]
 }
+

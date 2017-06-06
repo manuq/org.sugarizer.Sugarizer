@@ -1,6 +1,6 @@
 all:
-	cd electron && npm install
-	cd electron && npm run pack
+	cd electron && node yarn.js install --non-interactive --offline
+	cd electron && node yarn.js run pack --non-interactive
 
 install:
 	mkdir -p /app/lib/sugarizer
