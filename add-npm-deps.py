@@ -51,6 +51,8 @@ for line in args.yarn_lock:
         continue
     url, shasum = result.groups()
     filename = os.path.join(args.yarn_offline_cache_dir, os.path.basename(url))
+    if re.match(r'^https://(.*)@types/', url):
+        filename = os.path.join(os.path.dirname(filename), '@types-' + os.path.basename(filename))
     if not os.path.exists(filename):
         print("Not adding {}, file not found.".format(filename), file=sys.stderr)
         continue
@@ -61,6 +63,8 @@ for line in args.yarn_lock:
     source['url'] = url
     source['sha256'] = sha256
     source['dest'] = args.dest
+    if '@types' in url:
+        source['dest-filename'] = os.path.basename(filename)
     sources_list.append(source)
 
 sources_str = '\n'.join(json.dumps(sources_list, indent=4).splitlines()[1:-1])

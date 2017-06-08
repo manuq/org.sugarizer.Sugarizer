@@ -81,6 +81,13 @@
                 },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/@types/node/-/node-7.0.29.tgz",
+        "sha256": "bf52962861e3000e2fa6607b9aff389ab7b996768a0e4440025b2f8b0877c97d",
+        "dest": "electron/npm-offline-cache/",
+        "dest-filename": "@types-node-7.0.29.tgz"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz",
         "sha256": "6071627b4a4c6bdf8f59fe07c76c51c695b818976f46c0aa19f7c65d259d7791",
         "dest": "electron/npm-offline-cache/"
@@ -507,6 +514,12 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz",
+        "sha256": "9e80cb8713125aa53df81a29626f7b81f26a9be1cd41840b3ccdcae4d52e8f9c",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-1.0.2.tgz",
         "sha256": "14c82f01361452d3ee9e7879d90e66819557d8e84a69ec0f6c7c65c6563049a7",
         "dest": "electron/npm-offline-cache/"
@@ -533,6 +546,12 @@
         "type": "file",
         "url": "https://registry.yarnpkg.com/glob/-/glob-6.0.4.tgz",
         "sha256": "a765f639bf5561a50678e124fc59d6e9b8c7fd5c58d0d3913e37367ede192543",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz",
+        "sha256": "cf3d3e47a1308b512fd707f1df593737cb569079d04bf975e1fc48de6a629ed1",
         "dest": "electron/npm-offline-cache/"
     },
     {
@@ -681,12 +700,6 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/jodid25519/-/jodid25519-1.0.2.tgz",
-        "sha256": "b835769dd428d8edddde0565ee758e5e16541369bba3935e4496420689367a1a",
-        "dest": "electron/npm-offline-cache/"
-    },
-    {
-        "type": "file",
         "url": "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz",
         "sha256": "5ac44bc9490a2d7da45ebb7028ff9b86bf17944741e7c449573d7a147ae72323",
         "dest": "electron/npm-offline-cache/"
@@ -827,12 +840,6 @@
         "type": "file",
         "url": "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.0.tgz",
         "sha256": "5b1612f3e278be6dce7cada0a6591492cb249725c731e52b3ae44500808f02cd",
-        "dest": "electron/npm-offline-cache/"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz",
-        "sha256": "77b52870e8dedc68e1e7afcdadba34d3da6debe4f3aae36453ba151f1638bf24",
         "dest": "electron/npm-offline-cache/"
     },
     {
@@ -1137,6 +1144,12 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.1.tgz",
+        "sha256": "0597dcdf16daa619e52826fcc243d2eb4a396ad9fcb2cec02348d6bb5c69f8c1",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/rimraf/-/rimraf-2.2.8.tgz",
         "sha256": "3f5d746a7fe4adaf3e8c8fef6f72dd57e360e6882b45d724a6b1f7c1407f79bb",
         "dest": "electron/npm-offline-cache/"
@@ -1145,12 +1158,6 @@
         "type": "file",
         "url": "https://registry.yarnpkg.com/run-series/-/run-series-1.1.4.tgz",
         "sha256": "aeb16f66475921b603b416b453a25deacfa55f3191f4c2a13ec928c3ff9f977f",
-        "dest": "electron/npm-offline-cache/"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.0.tgz",
-        "sha256": "64a03173873a284f5475ccede3843e003d576b844d9ea21ec675448af7e1298d",
         "dest": "electron/npm-offline-cache/"
     },
     {
@@ -1221,8 +1228,8 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/sshpk/-/sshpk-1.13.0.tgz",
-        "sha256": "e9fb55c15693999324ccd53dbfd9c0509c507324adee9a63f8c0865541cac8d3",
+        "url": "https://registry.yarnpkg.com/sshpk/-/sshpk-1.13.1.tgz",
+        "sha256": "9f32e58102bd59ea8459d25b76697d7734ded220be55f26ab7dea9b8068e8a7d",
         "dest": "electron/npm-offline-cache/"
     },
     {
