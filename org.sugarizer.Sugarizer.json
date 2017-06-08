@@ -844,6 +844,12 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/mkdirp/-/mkdirp-0.5.1.tgz",
+        "sha256": "77b52870e8dedc68e1e7afcdadba34d3da6debe4f3aae36453ba151f1638bf24",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/mkpath/-/mkpath-0.1.0.tgz",
         "sha256": "6159b20743defda0e2b48edc91c2a2a245dc940a0fb88688bf98f6464d8a76a4",
         "dest": "electron/npm-offline-cache/"
@@ -1158,6 +1164,12 @@
         "type": "file",
         "url": "https://registry.yarnpkg.com/run-series/-/run-series-1.1.4.tgz",
         "sha256": "aeb16f66475921b603b416b453a25deacfa55f3191f4c2a13ec928c3ff9f977f",
+        "dest": "electron/npm-offline-cache/"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.0.tgz",
+        "sha256": "64a03173873a284f5475ccede3843e003d576b844d9ea21ec675448af7e1298d",
         "dest": "electron/npm-offline-cache/"
     },
     {
