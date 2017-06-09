@@ -20,6 +20,6 @@
   "devDependencies": {
     "electron-installer-flatpak": "*",
     "electron-packager": "*",
-    "electron": "~1.6.2"
+    "electron": "1.6.11"
   }
 }

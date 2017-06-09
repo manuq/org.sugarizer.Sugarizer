@@ -1,6 +1,11 @@
 all:
+	# Copy electron binaries to electron default cache directory
+	mkdir -p ~/.electron
+	mv electron-v1.6.11-linux-x64.zip ~/.electron
+	mv SHASUMS256.txt-1.6.11 ~/.electron
+
 	cd electron && node yarn.js install --non-interactive --offline --verbose
-	cd electron && node yarn.js run pack --non-interactive
+	cd electron && node yarn.js run pack --non-interactive --offline
 
 install:
 	mkdir -p /app/lib/sugarizer

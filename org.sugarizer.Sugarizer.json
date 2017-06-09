@@ -6,6 +6,10 @@
     "runtime-version": "1.4",
     "sdk": "org.freedesktop.Sdk",
     "command": "sugarizer",
+    "finish-args": [
+        "--socket=x11",
+        "--socket=wayland"
+    ],
     "modules": [
         {
             "name": "nodejs",
@@ -78,6 +82,17 @@
                     "type": "file",
                     "path": "electron/yarn.lock",
                     "dest": "electron/"
+                },
+                {
+                    "type": "file",
+                    "url": "https://github.com/electron/electron/releases/download/v1.6.11/electron-v1.6.11-linux-x64.zip",
+                    "sha256": "b3b5151f047657fbb26b812d1b02117f526455f39b353d476b9afddc2849d448"
+                },
+                {
+                    "type": "file",
+                    "url": "https://github.com/electron/electron/releases/download/v1.6.11/SHASUMS256.txt",
+                    "sha256": "541d84500c141dc7c4cd84d70229544814a49110f44eb1097d2fa49ef269669a",
+                    "dest-filename": "SHASUMS256.txt-1.6.11"
                 },
     {
         "type": "file",

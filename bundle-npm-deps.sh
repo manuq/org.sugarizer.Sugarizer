@@ -5,7 +5,9 @@
 # the Flatpak build directory.
 mkdir -p electron/npm-offline-cache
 pushd electron
-rm -rf node_modules/ yarn.lock
+rm -rf node_modules/
+rm -rf yarn.lock
+node yarn-0.24.6.js cache clean
 node yarn-0.24.6.js install --non-interactive
 popd
 
