@@ -86,7 +86,20 @@
                 {
                     "type": "file",
                     "url": "https://github.com/electron/electron/releases/download/v1.6.11/electron-v1.6.11-linux-x64.zip",
-                    "sha256": "b3b5151f047657fbb26b812d1b02117f526455f39b353d476b9afddc2849d448"
+                    "sha256": "b3b5151f047657fbb26b812d1b02117f526455f39b353d476b9afddc2849d448",
+                    "only-arches": ["x86_64"]
+                },
+                {
+                    "type": "file",
+                    "url": "https://github.com/electron/electron/releases/download/v1.6.11/electron-v1.6.11-linux-ia32.zip",
+                    "sha256": "f3366ddc1adf8fe090cbfc2c2c4fca93b427429b5a1ded1aa3a42133e5a0e406",
+                    "only-arches": ["i386"]
+                },
+                {
+                    "type": "file",
+                    "url": "https://github.com/electron/electron/releases/download/v1.6.11/electron-v1.6.11-linux-arm.zip",
+                    "sha256": "0bb9b6dd5238723b61d66489ef88f32348b61f30c2683c636a6f2d417fb6c096",
+                    "only-arches": ["arch"]
                 },
                 {
                     "type": "file",
