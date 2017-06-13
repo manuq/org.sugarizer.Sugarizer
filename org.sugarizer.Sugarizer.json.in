@@ -99,7 +99,7 @@
                     "type": "file",
                     "url": "https://github.com/electron/electron/releases/download/v1.6.11/electron-v1.6.11-linux-arm.zip",
                     "sha256": "0bb9b6dd5238723b61d66489ef88f32348b61f30c2683c636a6f2d417fb6c096",
-                    "only-arches": ["arch"]
+                    "only-arches": ["arm"]
                 },
                 {
                     "type": "file",
