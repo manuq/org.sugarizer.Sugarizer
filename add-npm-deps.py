@@ -18,19 +18,10 @@ parser.add_argument('module', help='The module name to add the tarballs as sourc
 parser.add_argument('yarn_offline_cache_dir', help='Path to the yarn offline mirror directory. '
                     'The script assumes that all the tarballs have been already downloaded to '
                     'validate them with the checksums in yarn.lock .')
-parser.add_argument('--dest', help='The destination of the tarballs (eg. a yarn offline mirror '
-                    'directory in the module build directory). '
-                    'Defaults to the basename of yarn_offline_cache_dir')
 args = parser.parse_args()
 
 if not os.path.isdir(args.yarn_offline_cache_dir):
     raise parser.error("'yarn_offline_cache_dir' Must be a directory.")
-
-if args.dest is None:
-    args.dest = os.path.basename(os.path.abspath(args.yarn_offline_cache_dir))
-
-if not args.dest.endswith('/'):
-    args.dest += '/'
 
 def get_checksums(filename):
     sha1 = hashlib.sha1()
@@ -62,10 +53,9 @@ for line in args.yarn_lock:
     source['type'] = "file"
     source['url'] = url
     source['sha256'] = sha256
-    source['dest'] = args.dest
     if '@types' in url:
         source['dest-filename'] = os.path.basename(filename)
     sources_list.append(source)
 
 sources_str = '\n'.join(json.dumps(sources_list, indent=4).splitlines()[1:-1])
-print(args.flatpak_manifest.read().replace("{{ NPM_DEPENDENCIES }}", sources_str, 1))
+print(args.flatpak_manifest.read().replace("{{ NAME }}", args.module, 1).replace("{{ NPM_DEPENDENCIES }}", sources_str, 1))
